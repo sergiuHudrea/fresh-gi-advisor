@@ -1,4 +1,5 @@
 def theCleaner():
+    print("")
     print("Welcome to your So Fresh & So Clean GI advisor!")
   
     def insideCleaner(anythingElse):
@@ -11,7 +12,6 @@ def theCleaner():
                 print("Perfect, let's get started!")
             elif ownGi =="n":
                 print("I am sorry, but I think I cannot be of service for you in that case... I am a mere Fresh Gi Advisor.")
-                print("OSSS")
                 anythingElse = "n"
                 return anythingElse
             else:
@@ -21,7 +21,6 @@ def theCleaner():
         stain = ""
         newLease = ""
         while typeOfCleaning != "normal" and typeOfCleaning != "specific":
-            print("")
             typeOfCleaning = input("Are you looking to find out about normal maintenance or something more specific? (normal/specific): ")
             print("")
             if typeOfCleaning == "normal":
@@ -37,7 +36,6 @@ def theCleaner():
                 print("")
             elif typeOfCleaning == "specific":
                 while stain != "y" and stain != "n":
-                    print("")
                     stain = input("Is it about a stain? (y/n): " )
                     print("")
                     if stain == "y":
@@ -53,7 +51,6 @@ def theCleaner():
                         print("")
                     elif stain == "n":
                         while newLease != "y" and newLease != "n":
-                            print("")
                             newLease = input("Is your Gi stinky from many grueling sessions of grapplling and not applying the tender love and care the Gi deserved? (y/n): ")
                             print("")
                             if newLease == "y":
@@ -90,10 +87,10 @@ def theCleaner():
     while anythingElse != "n" and anythingElse != "y":
         print("")
         anythingElse = input("Is there anything else I can help you with? (y/n): ")
-        print("")
         while anythingElse == "y":
             anythingElse = insideCleaner(anythingElse)
         if anythingElse == "n":
+            print("")
             print("In that case, it was great conversating with you human.")
         else:
             print("My apologies, but I didn't get that.")
