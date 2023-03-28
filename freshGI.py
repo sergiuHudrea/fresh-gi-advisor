@@ -1,3 +1,29 @@
+'''
+To do:
+ - Add the matrix image
+ - Check again how it works with the new lines
+ - Try to expriment on how you could put it on frontend web
+ - Write MD file for it
+
+ 
+Create a blog post using Medium, Dev.to, or some other blogging platform.
+
+Your blog post should include the following:
+
+    A compelling title about your program
+    An introduction sharing the background info (the “why”)
+    An image or a GIF of your program
+    An accompanying paragraph describing your Python code
+    A link to your code on GitHub.
+    A conclusion
+
+'''
+
+
+
+
+
+
 def theCleaner():
     print("")
     print("Welcome to your So Fresh & So Clean GI advisor!")
