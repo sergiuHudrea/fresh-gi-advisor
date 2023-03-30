@@ -4,6 +4,8 @@ To do:
  - Check again how it works with the new lines
  - Try to expriment on how you could put it on frontend web
  - Write MD file for it
+ - Play around with Django
+ - TDD
 
  
 Create a blog post using Medium, Dev.to, or some other blogging platform.
