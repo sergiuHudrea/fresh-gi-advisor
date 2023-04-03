@@ -48,7 +48,7 @@ oss = """
 
 """
 
-normie = """
+normie = """\n
 Great, here are a few basic things to know for properly taking care of your Gi: 
     • Wash your Gi as soon as you can after training, this will stop the sweat impregnate the cotton.
     • Wash your Gi at cold temperatures, never higher than 40º, and on a gentle wash setting.
@@ -62,7 +62,7 @@ Great, here are a few basic things to know for properly taking care of your Gi:
                 
 """
 
-stainy = """
+stainy = """\n
 Ahh, I remember my first stain. First day of using this brand new white Gi and I got blood all over it (my enemie's of course). It is the white Gi curse...
 Wait... AI cannot do BJJ, what is happening?
 Maybe my creator put this thoughts in my neural networks.
@@ -75,7 +75,7 @@ I know stains can be daunting, but there is a very easy way to get them out of y
 
 """
 
-stinky = """
+stinky = """\n
 Nothing worse than looking to your beautiful Gi and realising that if you wear it one more time in class, you will probably choke your colleagues 
 with your smelly Gi..
 

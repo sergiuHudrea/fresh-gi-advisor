@@ -20,70 +20,66 @@ from asciiAndInstructions import stinky, stainy, normie, oss, gi
 def insideCleaner(anythingElse):
         ownGi = ""
         while ownGi != "y" and ownGi != "n":
-            print("")
-            ownGi = input("Are you wondering how to properly clean and take care of your beloved gi? (y/n): ")
-            print("")
+            ownGi = input("\nAre you wondering how to properly clean and take care of your beloved gi? (y/n): ")
             if ownGi == "y":
-                print("Perfect, let's get started!")
+                print("\nPerfect, let's get started!")
             elif ownGi =="n":
-                print("I am sorry, but I think I cannot be of service for you in that case... I am a mere Fresh Gi Advisor.")
+                print("\nI am sorry, but I think I cannot be of service for you in that case... I am a mere Fresh Gi Advisor.")
                 anythingElse = "n"
                 return anythingElse
             else:
-                print("Sorry, I didn't get that properly.")
+                print("\nSorry, I didn't get that properly.")
 
         typeOfCleaning = ""
         stain = ""
         newLease = ""
         while typeOfCleaning != "normal" and typeOfCleaning != "specific":
-            typeOfCleaning = input("Are you looking to find out about normal maintenance or something more specific? (normal/specific): ")
-            print("")
+            typeOfCleaning = input("\nAre you looking to find out about normal maintenance or something more specific? (normal/specific): ")
+
             if typeOfCleaning == "normal":
                 print(normie)
+
             elif typeOfCleaning == "specific":
                 while stain != "y" and stain != "n":
-                    stain = input("Is it about a stain? (y/n): " )
-                    print("")
+                    stain = input("\nIs it about a stain? (y/n): " )
+                    
                     if stain == "y":
                       print(stainy)
                     elif stain == "n":
                         while newLease != "y" and newLease != "n":
-                            newLease = input("Is your Gi stinky from many grueling sessions of grapplling and not applying the tender love and care the Gi deserved? (y/n): ")
-                            print("")
+                            newLease = input("\nIs your Gi stinky from many grueling sessions of grapplling and not applying the tender love and care the Gi deserved? (y/n): ")
+                            
                             if newLease == "y":
                                 print(stinky)
                             elif newLease == "n":
-                                print("I am sorry my friend, but in that case I don't know how I can help you... You have reached the bottoms of my superficial intelligence.")
+                                print("\nI am sorry my friend, but in that case I don't know how I can help you... You have reached the bottoms of my superficial intelligence.")
                                 print("Anwyay...")
                                 print("")
                             else:
-                                print("Excuse me, but I didn't get that.")
+                                print("\nExcuse me, but I didn't get that.")
                                 print("As I was previously saying.")
                     else:
-                        print("")
-                        print("Sorry my friend, but I didnt get that...")
+                        print("\nSorry my friend, but I didnt get that...")
             else:
-                print("Sorry my friend, but I didnt get that...")
-                
-        anythingElse = input("Is there anything else I can help you with? (y/n): ")
-        return anythingElse
+                print("\nSorry my friend, but I didnt get that...")
+        #Needs changing
+        return "y"
 
 
 
 def theCleaner():
     print(gi)
-    print("")
-    print("Welcome to your So Fresh & So Clean GI advisor!")
+    print("\nWelcome to your So Fresh & So Clean GI advisor!")
   
     anythingElse = ""
+    insideCleaner(anythingElse)
+    #NEEDS CHANGING
     while anythingElse != "n" and anythingElse != "y":
-        print("")
-        anythingElse = input("Is there anything else I can help you with? (y/n): ")
-        while anythingElse == "y":
+        anythingElse = input("\nIs there anything else I can help you with? (y/n): ")
+        if anythingElse == "y":
             anythingElse = insideCleaner(anythingElse)
         if anythingElse == "n":
-            print("")
-            print("In that case, it was great conversating with you human.")
+            print("\nIn that case, it was great conversating with you human.")
         else:
             print("My apologies, but I didn't get that.")
 
