@@ -73,12 +73,12 @@ def theCleaner():
   
     anythingElse = ""
     insideCleaner(anythingElse)
-    #NEEDS CHANGING
+    #NEEDS CHANGING, after the second time it gets out of the while loop
     while anythingElse != "n" and anythingElse != "y":
         anythingElse = input("\nIs there anything else I can help you with? (y/n): ")
         if anythingElse == "y":
             anythingElse = insideCleaner(anythingElse)
-        if anythingElse == "n":
+        elif anythingElse == "n":
             print("\nIn that case, it was great conversating with you human.")
         else:
             print("My apologies, but I didn't get that.")
