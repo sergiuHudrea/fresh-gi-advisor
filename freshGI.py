@@ -17,7 +17,7 @@ Your blog post should include the following:
 
 from asciiAndInstructions import stinky, stainy, normie, oss, gi
 
-def insideCleaner(anythingElse):
+def insideCleaner():
         ownGi = ""
         while ownGi != "y" and ownGi != "n":
             ownGi = input("\nAre you wondering how to properly clean and take care of your beloved gi? (y/n): ")
@@ -25,8 +25,7 @@ def insideCleaner(anythingElse):
                 print("\nPerfect, let's get started!")
             elif ownGi =="n":
                 print("\nI am sorry, but I think I cannot be of service for you in that case... I am a mere Fresh Gi Advisor.")
-                anythingElse = "n"
-                return anythingElse
+                return "n"
             else:
                 print("\nSorry, I didn't get that properly.")
 
@@ -62,7 +61,6 @@ def insideCleaner(anythingElse):
                         print("\nSorry my friend, but I didnt get that...")
             else:
                 print("\nSorry my friend, but I didnt get that...")
-        #Needs changing
         return "y"
 
 
@@ -71,13 +69,11 @@ def theCleaner():
     print(gi)
     print("\nWelcome to your So Fresh & So Clean GI advisor!")
   
-    anythingElse = ""
-    insideCleaner(anythingElse)
-    #NEEDS CHANGING, after the second time it gets out of the while loop
-    while anythingElse != "n" and anythingElse != "y":
+    anythingElse = insideCleaner()
+    while anythingElse != "n":
         anythingElse = input("\nIs there anything else I can help you with? (y/n): ")
         if anythingElse == "y":
-            anythingElse = insideCleaner(anythingElse)
+            anythingElse = insideCleaner()
         elif anythingElse == "n":
             print("\nIn that case, it was great conversating with you human.")
         else:
