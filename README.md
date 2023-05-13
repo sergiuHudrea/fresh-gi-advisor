@@ -5,7 +5,7 @@ A mini command-line project using Python. The program is meant to help the user 
 ### This will come in handy:
 - If you managed to get stains on your beloved Gi.
 - If you are not sure how to take amazing care of your legendary piece of armour.
-- If you were so cruel to your Gi that it became a stincky mess.
+- If you were so cruel to your Gi that it became a stinky mess.
 
 
 ## Requirements
