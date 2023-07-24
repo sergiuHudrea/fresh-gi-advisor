@@ -1,20 +1,3 @@
-'''
-To do:
- - Play around with Django
- 
-Create a blog post using Medium, Dev.to, or some other blogging platform.
-
-Your blog post should include the following:
-
-    A compelling title about your program
-    An introduction sharing the background info (the “why”)
-    An image or a GIF of your program
-    An accompanying paragraph describing your Python code
-    A link to your code on GitHub.
-    A conclusion
-
-'''
-
 from asciiAndInstructions import stinky, stainy, normie, oss, gi
 
 def insideCleaner():
@@ -47,16 +30,12 @@ def insideCleaner():
                     elif stain == "n":
                         while newLease != "y" and newLease != "n":
                             newLease = input("\nIs your Gi stinky from many grueling sessions of grapplling and not applying the tender love and care the Gi deserved? (y/n): ")
-                            
                             if newLease == "y":
                                 print(stinky)
                             elif newLease == "n":
-                                print("\nI am sorry my friend, but in that case I don't know how I can help you... You have reached the bottoms of my superficial intelligence.")
-                                print("Anwyay...")
-                                print("")
+                                print("\nI am sorry my friend, but in that case I don't know how I can help you... You have reached the bottoms of my superficial intelligence. \nAnwyay...")
                             else:
-                                print("\nExcuse me, but I didn't get that.")
-                                print("As I was previously saying.")
+                                print("\nExcuse me, but I didn't get that.\nAs I was previously saying...")
                     else:
                         print("\nSorry my friend, but I didnt get that...")
             else:
