@@ -54,8 +54,7 @@ Great, here are a few basic things to know for properly taking care of your Gi:
     • Wash your Gi at cold temperatures, never higher than 40º, and on a gentle wash setting.
     • To give it a longer lifespan try washing it inside out.
     • Avoid softeners, this will damage the cotton fibers.
-    • Hang dry as washer dryers will shrink your Gi to the size of a pea, also, avoid direct sunlight, you don't want that midnigt black Gi turn into 
-    50 Shades of Grey.
+    • Hang dry as washer dryers will shrink your Gi to the size of a pea, also, avoid direct sunlight, Gis are like vampires..
     • Don't forget to put in the wash that cool belt as well! Although... BJJ wizards often say that washing the belt can remove its magic abilities.
     • Wash your Gi after every training session, your Gi and your training partners will deeply appreciated it.
     • No need to iron your Gi, you'll mess it up in the first 3 minutes of the training anyway.
